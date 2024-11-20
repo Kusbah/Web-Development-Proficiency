@@ -12,6 +12,7 @@
  * 2. Save this file as 'product.ts'.
  * 3. Run the generated JavaScript file with Node.js:
  */
+// Task 4
 interface Product {
     name: string;
     price: number;
@@ -20,7 +21,7 @@ interface Product {
 function totalPriceOfAllProducts(products: Product[]): number {
     return products.reduce((total, product) => total + product.price, 0);
 }
-
+// Task 5
 function validEmail(email) {
     const emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
     return emailRegex.test(email);
