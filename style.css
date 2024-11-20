@@ -1,0 +1,13 @@
+#header {
+    text-align: center;
+}
+
+#listitem {
+    border: 1px solid;
+    background-color: lightgray; 
+}
+
+li {
+    font-weight: bold;
+    color: green; 
+}
